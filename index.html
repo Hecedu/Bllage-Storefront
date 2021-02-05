@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bllage</title>
+  <meta name="description" content="Bllage inc.">
+  <meta name="author" content="Bllage inc.">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/skull_1f480.png">
+</head>
+
+<body> 
+
+  <div class = "blackbar main">
+    <p class = "mainbody whitetext center">Winter collection now available!</p>
+  </div>
+
+  <div id="sidenav">
+    <img src="assets\Bllagetransp.png" class = "centerimg logo">
+    <h1 class = "whitetext">Buy our stuff yo!</h1>
+    <a href="#main">Storefront</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a class="closebtn" onclick="closeNav()">&times;</a>
+  </div>
+  
+  <div class = main>
+
+    <section>
+      <div class="openbtn" onclick="openNav()">&#9776;</div>
+      <p>Your daily dose of fun:</p>
+      <marquee behavior="scroll" direction="left" id = "joke"  class = "center" >&nbsp</marquee>
+      <div id="container">
+      </div>
+    </section>
+    
+    <p class = "lowtext">
+      God gives the lemons, We make the lemonade.
+    </p>
+    <p class = "lowtext">
+      B-llage inc. © 2020
+    </p>
+    
+  </div>
+  <script src = "index.js"></script>
+</body>
+</html>

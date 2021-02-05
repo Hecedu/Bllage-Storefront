@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: white;
+}
+
+p,a,h1 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 0.1em;
+    padding-bottom: 0.5em;
+    margin: 0;
+}
+h3 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  text-align: center;
+}
+small {
+  font-size: 15px;
+  text-align: center;
+}
+
+.blackbar {
+  background-color: black;
+
+  margin: 0;
+}
+.whitetext{ 
+  color: white;
+  font-size: 15px;
+
+}
+.lowtext{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+}
+.midtext{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+}
+
+/*centers different types of objects*/
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(0 0 0.30rem rgb(73, 73, 73));
+  width: 75%;
+}
+.logo{
+  transition: 0.3s;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.logo:hover {
+  transition: 0.3s;
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+}
+.centerproduct {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:0.5em;
+  filter: drop-shadow(0 0 0.30rem rgb(73, 73, 73));
+  width: 75%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(0 0 0.30rem rgb(73, 73, 73));
+}
+
+/*handling default html objects*/
+marquee {
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color:  white;
+  width: 500px;
+}
+button {
+  background-color: black; 
+  width: 300px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*Flexbox*/
+#container {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    
+
+  }
+
+  /*handles individual items thumbnails*/
+.child {
+    width: 300px;  
+    height: 400px; 
+    margin: 0.5em;  
+    background-color: black;
+    filter: drop-shadow(0 0 0.30rem rgb(73, 73, 73));
+    padding-top: 1em;
+    padding-bottom:1em;
+    transition: 0.3s;
+    
+  }
+
+  .innerchild {
+    width: 300px;  
+    height: 400px; 
+    margin: auto;  
+    background-color:white;
+    filter: drop-shadow(0 0 0.30rem rgb(73, 73, 73));
+    padding: 0;
+    transition: 0.3s;
+  }
+
+
+  /*Handles side navigation bar*/
+  #sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.3s;
+  }
+  #sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #CCC;
+    display: block;
+  }
+  #sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .main {
+    margin-left: 160px;
+    font-size: 28px;
+    padding: 0px 10px;
+    transition: 0.3s;
+  }
